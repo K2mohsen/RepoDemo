@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     
     func divide(a : Float, b : Float)  {
         let sum = a / b
+        print("add some changes here")
         print(sum)
     }
 
