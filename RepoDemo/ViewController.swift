@@ -13,7 +13,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    func add(a : Int, b : Int)  {
+        let sum = a + b
+        print(sum)
+    }
 
 }
 
