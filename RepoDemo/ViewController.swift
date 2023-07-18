@@ -29,5 +29,13 @@ class ViewController: UIViewController {
         print(sum)
     }
 
+    func checAge() {
+        let age : Int? = 22
+        guard let myAge = age else {
+            print("age is not defined")
+            return
+        }
+        print("my age is \(myAge)")
+    }
 }
 
