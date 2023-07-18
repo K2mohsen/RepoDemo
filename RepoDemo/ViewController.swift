@@ -19,5 +19,10 @@ class ViewController: UIViewController {
         print(sum)
     }
 
+     func sub(a : Int, b : Int)  {
+        let sum = a - b
+        print(sum)
+    }
+
 }
 
